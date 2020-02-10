@@ -3347,7 +3347,7 @@ case "$target" in
 
                 # Turn off scheduler boost at the end
                 echo 0 > /proc/sys/kernel/sched_boost
-                echo 1 > /proc/sys/kernel/sched_boost_top_app
+                echo 0 > /proc/sys/kernel/sched_boost_top_app
 
                 # Turn on sleep modes.
                 echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled

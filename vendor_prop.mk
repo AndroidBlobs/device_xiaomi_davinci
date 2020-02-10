@@ -86,6 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.vendor.audio.hifi=true \
     ro.vendor.audio.sdk.fluencetype=fluence \
     ro.vendor.audio.sdk.ssr=false \
+    ro.vendor.audio.sfx.earadj=true \
     ro.vendor.audio.sos=true \
     ro.vendor.audio.soundfx.type=mi \
     ro.vendor.audio.soundfx.usb=true \

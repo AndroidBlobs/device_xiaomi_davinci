@@ -52,7 +52,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>system</name>
         <indexMin>0</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
              <point>1,-3000</point>
              <point>33,-2600</point>
@@ -68,7 +68,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>ring</name>
         <indexMin>0</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
               <point>1,-2970</point>
@@ -127,7 +127,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>alarm</name>
         <indexMin>1</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
               <point>0,-2970</point>
@@ -143,7 +143,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>notification</name>
         <indexMin>0</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="HEADSET_SYSTEM_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
               <point>1,-2970</point>
@@ -203,14 +203,13 @@ volume index from 0 to 100.
         <name>dtmf</name>
         <indexMin>0</indexMin>
         <indexMax>15</indexMax>
-        <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="HEADSET_SYSTEM_VOLUME_CURVE"/>
-        <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
+        <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
             <point>1,-3000</point>
             <point>33,-2600</point>
             <point>66,-2200</point>
             <point>100,-1800</point>
         </volume>
-        <!--volume deviceCategory="DEVICE_CATEGORY_SPEAKER" ref="DEFAULT_SYSTEM_VOLUME_CURVE"/-->
+        <volume deviceCategory="DEVICE_CATEGORY_SPEAKER" ref="DEFAULT_SYSTEM_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_EARPIECE" ref="DEFAULT_SYSTEM_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_EXT_MEDIA" ref="DEFAULT_DEVICE_CATEGORY_EXT_MEDIA_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_HEARING_AID" ref="DEFAULT_HEARING_AID_VOLUME_CURVE"/>
