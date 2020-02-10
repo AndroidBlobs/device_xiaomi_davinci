@@ -268,15 +268,12 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 
 # enable temp dds
 persist.vendor.radio.enable_temp_dds=true
-
-# property to latch unsignaled buffer
-debug.sf.latch_unsignaled=1
 # end of device/xiaomi/sm6150_common/system.prop
 #
 # from device/xiaomi/sm6150_common/common_rw.prop
 #
 #quick charge type detect
-persist.vendor.quick.charge=1
+persist.quick.charge.detect=1
 #
 # from device/xiaomi/davinci/special_rw.prop
 #
