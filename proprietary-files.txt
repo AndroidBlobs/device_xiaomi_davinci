@@ -146,6 +146,7 @@ vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
+vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
@@ -156,10 +157,12 @@ vendor/lib/libbtnv.so
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
+vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
@@ -192,22 +195,6 @@ product/framework/com.quicinc.cne.api-V1.1-java.jar
 product/framework/com.quicinc.cne.constants-V1.0-java.jar
 product/framework/com.quicinc.cne.constants-V2.0-java.jar
 product/framework/com.quicinc.cne.constants-V2.1-java.jar
-product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.0-java.odex
-product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.0-java.vdex
-product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.1-java.odex
-product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.1-java.vdex
-product/framework/oat/arm/vendor.qti.hardware.data.dynamicdds-V1.0-java.odex
-product/framework/oat/arm/vendor.qti.hardware.data.dynamicdds-V1.0-java.vdex
-product/framework/oat/arm/vendor.qti.hardware.data.iwlan-V1.0-java.odex
-product/framework/oat/arm/vendor.qti.hardware.data.iwlan-V1.0-java.vdex
-product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.0-java.odex
-product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.0-java.vdex
-product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.1-java.odex
-product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.1-java.vdex
-product/framework/oat/arm64/vendor.qti.hardware.data.dynamicdds-V1.0-java.odex
-product/framework/oat/arm64/vendor.qti.hardware.data.dynamicdds-V1.0-java.vdex
-product/framework/oat/arm64/vendor.qti.hardware.data.iwlan-V1.0-java.odex
-product/framework/oat/arm64/vendor.qti.hardware.data.iwlan-V1.0-java.vdex
 product/framework/vendor.qti.data.factory-V1.0-java.jar
 product/framework/vendor.qti.data.factory-V2.0-java.jar
 product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar
@@ -248,11 +235,7 @@ product/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 product/lib64/vendor.qti.hardware.data.qmi@1.0.so
 -vendor/app/CneApp/CneApp.apk
--vendor/app/CneApp/oat/arm64/CneApp.odex
--vendor/app/CneApp/oat/arm64/CneApp.vdex
 -vendor/app/IWlanService/IWlanService.apk
--vendor/app/IWlanService/oat/arm64/IWlanService.odex
--vendor/app/IWlanService/oat/arm64/IWlanService.vdex
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
@@ -702,7 +685,6 @@ vendor/lib/libGPQTEEC_vendor.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
 vendor/lib/libGPTEE_vendor.so
-vendor/lib/liboemcrypto.so
 vendor/lib/libqisl.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/librmp.so
@@ -722,7 +704,6 @@ vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/liboemcrypto.so
 vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librmp.so
@@ -888,14 +869,6 @@ vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Factory
-product/framework/oat/arm/vendor.qti.hardware.factory-V1.0-java.odex
-product/framework/oat/arm/vendor.qti.hardware.factory-V1.0-java.vdex
-product/framework/oat/arm/vendor.qti.hardware.factory-V1.1-java.odex
-product/framework/oat/arm/vendor.qti.hardware.factory-V1.1-java.vdex
-product/framework/oat/arm64/vendor.qti.hardware.factory-V1.0-java.odex
-product/framework/oat/arm64/vendor.qti.hardware.factory-V1.0-java.vdex
-product/framework/oat/arm64/vendor.qti.hardware.factory-V1.1-java.odex
-product/framework/oat/arm64/vendor.qti.hardware.factory-V1.1-java.vdex
 product/framework/vendor.qti.hardware.factory-V1.0-java.jar
 product/framework/vendor.qti.hardware.factory-V1.1-java.jar
 product/lib/vendor.qti.hardware.factory@1.0.so
@@ -1138,47 +1111,6 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
-
-# Kernel-Modules
-vendor/lib/modules/audio_adsp_loader.ko
-vendor/lib/modules/audio_apr.ko
-vendor/lib/modules/audio_bolero_cdc.ko
-vendor/lib/modules/audio_hdmi.ko
-vendor/lib/modules/audio_machine_talos.ko
-vendor/lib/modules/audio_mbhc.ko
-vendor/lib/modules/audio_native.ko
-vendor/lib/modules/audio_pinctrl_lpi.ko
-vendor/lib/modules/audio_pinctrl_wcd.ko
-vendor/lib/modules/audio_platform.ko
-vendor/lib/modules/audio_q6.ko
-vendor/lib/modules/audio_q6_notifier.ko
-vendor/lib/modules/audio_q6_pdr.ko
-vendor/lib/modules/audio_rx_macro.ko
-vendor/lib/modules/audio_snd_event.ko
-vendor/lib/modules/audio_stub.ko
-vendor/lib/modules/audio_swr.ko
-vendor/lib/modules/audio_swr_ctrl.ko
-vendor/lib/modules/audio_tfa98xx.ko
-vendor/lib/modules/audio_tx_macro.ko
-vendor/lib/modules/audio_usf.ko
-vendor/lib/modules/audio_va_macro.ko
-vendor/lib/modules/audio_wcd934x.ko
-vendor/lib/modules/audio_wcd937x.ko
-vendor/lib/modules/audio_wcd937x_slave.ko
-vendor/lib/modules/audio_wcd9xxx.ko
-vendor/lib/modules/audio_wcd_core.ko
-vendor/lib/modules/audio_wcd_spi.ko
-vendor/lib/modules/audio_wglink.ko
-vendor/lib/modules/audio_wsa881x.ko
-vendor/lib/modules/audio_wsa_macro.ko
-vendor/lib/modules/exfat.ko
-vendor/lib/modules/modules.alias
-vendor/lib/modules/modules.dep
-vendor/lib/modules/mpq-adapter.ko
-vendor/lib/modules/mpq-dmx-hw-plugin.ko
-vendor/lib/modules/msm_11ad_proxy.ko
-vendor/lib/modules/qca_cld3_wlan.ko
-vendor/lib/modules/wil6210.ko
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
@@ -1882,6 +1814,7 @@ vendor/lib/libsensorslog.so
 vendor/lib/libssc.so
 vendor/lib/libssccalapi.so
 vendor/lib/libssc_default_listener.so
+vendor/lib/sensors.mius.proximity.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorndkbridge.so
@@ -1889,13 +1822,12 @@ vendor/lib64/libsensorslog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssccalapi.so
 vendor/lib64/libssc_default_listener.so
+vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 
 # Soter
 product/framework/vendor.qti.hardware.soter-V1.0-java.jar
 product/lib64/vendor.qti.hardware.soter@1.0.so
--vendor/app/SoterService/oat/arm64/SoterService.odex
--vendor/app/SoterService/oat/arm64/SoterService.vdex
 -vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/bin/SoterProvisioningTool
@@ -1945,8 +1877,6 @@ vendor/lib64/libtime_genoff.so
 
 # Touch-improve
 -vendor/app/com.qualcomm.qti.improvetouch.service/com.qualcomm.qti.improvetouch.service.apk
--vendor/app/com.qualcomm.qti.improvetouch.service/oat/arm64/com.qualcomm.qti.improvetouch.service.odex
--vendor/app/com.qualcomm.qti.improvetouch.service/oat/arm64/com.qualcomm.qti.improvetouch.service.vdex
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
@@ -2050,11 +1980,13 @@ vendor/bin/nv_mac
 etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml
 etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
+etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
 etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml
 framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
 framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
+framework/vendor.xiaomi.hardware.misys.V3_0.jar
 framework/vendor.xiaomi.hardware.motor-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
@@ -2065,6 +1997,7 @@ lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 lib/vendor.xiaomi.hardware.misys@1.0.so
 lib/vendor.xiaomi.hardware.misys@2.0.so
+lib/vendor.xiaomi.hardware.misys@3.0.so
 lib/vendor.xiaomi.hardware.motor@1.0.so
 lib/vendor.xiaomi.hardware.touchfeature@1.0.so
 lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
@@ -2073,6 +2006,7 @@ lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 lib64/vendor.xiaomi.hardware.misys@1.0.so
 lib64/vendor.xiaomi.hardware.misys@2.0.so
+lib64/vendor.xiaomi.hardware.misys@3.0.so
 lib64/vendor.xiaomi.hardware.motor@1.0.so
 lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
 vendor/bin/hw/android.hardware.dumpstate@1.0-service.xiaomi
@@ -2080,6 +2014,7 @@ vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
 vendor/bin/mlipayd@1.1
 vendor/bin/mtd@1.2
@@ -2089,6 +2024,7 @@ vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc
@@ -2098,6 +2034,7 @@ vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
+vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 vendor/lib/libmivendor_module_calibration.so
 vendor/lib/libmivendor_module_hall.so
@@ -2111,6 +2048,7 @@ vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
 vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
+vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
@@ -2123,6 +2061,7 @@ vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 vendor/lib64/libmivendor_module_calibration.so
 vendor/lib64/libmivendor_module_hall.so
@@ -2136,6 +2075,7 @@ vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
@@ -2166,18 +2106,8 @@ vendor/etc/test.wav
 
 # Misc
 -vendor/app/CACertService/CACertService.apk
-vendor/app/CACertService/oat/arm64/CACertService.odex
-vendor/app/CACertService/oat/arm64/CACertService.vdex
 -vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/ConnectionSecurityService/oat/arm64/ConnectionSecurityService.odex
-vendor/app/ConnectionSecurityService/oat/arm64/ConnectionSecurityService.vdex
-vendor/app/SSGTelemetryService/oat/arm64/SSGTelemetryService.odex
-vendor/app/SSGTelemetryService/oat/arm64/SSGTelemetryService.vdex
 -vendor/app/SSGTelemetryService/SSGTelemetryService.apk
-vendor/app/TimeService/oat/arm64/TimeService.odex
-vendor/app/TimeService/oat/arm64/TimeService.vdex
-vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex
-vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex
 -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/adpl
 vendor/bin/athdiag
@@ -2209,6 +2139,7 @@ vendor/bin/ipacm-diag
 vendor/bin/KmInstallKeybox
 vendor/bin/loadalgo
 vendor/bin/minidump64
+vendor/bin/MI_IC
 vendor/bin/mm-vidc-omx-test
 vendor/bin/mtb
 vendor/bin/myftm
@@ -2226,7 +2157,6 @@ vendor/bin/shell_11ad
 vendor/bin/sigma_dut
 vendor/bin/spectraltool
 vendor/bin/test_diag
-vendor/bin/tloc_daemon
 vendor/bin/vendor_cmd_tool
 vendor/bin/vppservice
 vendor/bin/vsimd
@@ -2237,15 +2167,15 @@ vendor/bin/wigighalsvc
 vendor/bin/wigig_wiburn
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
--vendor/data-app/Drive/Drive.apk
--vendor/data-app/Duo/Duo.apk
--vendor/data-app/Miui_Fashiongallery_global_new/Miui_Fashiongallery_global_new.apk
--vendor/data-app/Music2/Music2.apk
--vendor/data-app/Photos/Photos.apk
--vendor/data-app/Videos/Videos.apk
--vendor/data-app/wps_lite/wps_lite.apk
+-vendor/data-app/aiasst_service/aiasst_service.apk
+-vendor/data-app/Health/Health.apk
+-vendor/data-app/SmartHome/SmartHome.apk
+-vendor/data-app/wps-lite/wps-lite.apk
+-vendor/data-app/XMRemoteController/XMRemoteController.apk
+-vendor/data-app/Youpin/Youpin.apk
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/configstore/wigig.xml
+vendor/etc/device_features/davinci.xml
 vendor/etc/ftm_test_config_qrd
 vendor/etc/ftm_test_config_sm6150-tavil-snd-card
 vendor/etc/gpfspath_oem_config.xml
@@ -2274,7 +2204,6 @@ vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qdcmss.rc
 vendor/etc/init/qseecomd.rc
-vendor/etc/init/tloc_daemon.rc
 vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
@@ -2329,6 +2258,7 @@ vendor/lib/libalRnBRT_GL_GBWRAPPER.so
 vendor/lib/libbatterylistener.so
 vendor/lib/libcacertclient.so
 vendor/lib/libcert_parse.wpa_s.so
+vendor/lib/libcheckpid.so
 vendor/lib/libcirrusspkrprot.so
 vendor/lib/libclient2slpi.notifier.so
 vendor/lib/libcomprcapture.so
@@ -2347,6 +2277,7 @@ vendor/lib/libhfp.so
 vendor/lib/libhta_controller.so
 vendor/lib/libhta_hexagon_runtime.so
 vendor/lib/libjnihelper.so
+vendor/lib/liblogwrap_vendor.so
 vendor/lib/libmiracast.so
 vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
@@ -2390,6 +2321,7 @@ vendor/lib/libstagefright_soft_vorbisdec.so
 vendor/lib/libstagefright_soft_vpxdec.so
 vendor/lib/libstagefright_soft_vpxenc.so
 vendor/lib/libteeclientjni.so
+vendor/lib/libultrasound.so
 vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
@@ -2398,7 +2330,6 @@ vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/libwigig_flashaccess.so
 vendor/lib/libwigig_pciaccess.so
 vendor/lib/libwigig_utils.so
-vendor/lib/libwvkeybox.so
 vendor/lib/qtimutex.so
 vendor/lib/unnhal-acc-hta.so
 vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
@@ -2432,6 +2363,7 @@ vendor/lib64/libarcsat.so
 vendor/lib64/libbatterylistener.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libcert_parse.wpa_s.so
+vendor/lib64/libcheckpid.so
 vendor/lib64/libchrome.so
 vendor/lib64/libcirrusspkrprot.so
 vendor/lib64/libclient2slpi.notifier.so
@@ -2451,6 +2383,7 @@ vendor/lib64/libhta_controller.so
 vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/libloadalgo_stub.so
+vendor/lib64/liblogwrap_vendor.so
 vendor/lib64/libmiracast.so
 vendor/lib64/libmls_utils_vendor.so
 vendor/lib64/libmls_v4l2enc_vendor.so
@@ -2472,13 +2405,13 @@ vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libspkrprot.so
 vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libteeclientjni.so
+vendor/lib64/libultrasound.so
 vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwigig_flashaccess.so
 vendor/lib64/libwigig_pciaccess.so
 vendor/lib64/libwigig_utils.so
-vendor/lib64/libwvkeybox.so
 vendor/lib64/ls_nq_client.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so

@@ -105,4 +105,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
+    <carrier_config mcc="413" mnc="01,02">
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
 </carrier_config_list>

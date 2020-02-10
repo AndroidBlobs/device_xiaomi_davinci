@@ -115,12 +115,18 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <boolean name="hide_wfc_mode_option" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <string-array name="carrier_certificate_string_array" num="1">
+            <item value="1CEBC94A88A739178692209DE6E0A0802218B813" />
+        </string-array>
     </carrier_config>
     <carrier_config mcc="405" mnc="51,52,53,54,55,56">
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <boolean name="hide_wfc_mode_option" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <string-array name="carrier_certificate_string_array" num="1">
+            <item value="1CEBC94A88A739178692209DE6E0A0802218B813" />
+        </string-array>
     </carrier_config>
     <carrier_config mcc="427" mnc="2">
         <boolean name="carrier_5g_switch_available_bool" value="true" />
@@ -190,6 +196,9 @@
     <carrier_config cust_region="es_vodafone" mcc="262" mnc="02,09">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
         <boolean name="hide_wfc_mode_option" value="true" />
+    </carrier_config>
+    <carrier_config mcc="262" mnc="03,07">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="216" mnc="70">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
@@ -269,7 +278,6 @@
         <string-array name="read_only_apn_types_string_array" num="0" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="config_show_prefer_4g" value="true" />
-        <boolean name="display_call_type_icon_bool" value="true" />
     </carrier_config>
     <carrier_config cust_region="es_telefonica" mcc="214" mnc="05,07">
         <string name="default_vm_number_string">123</string>
@@ -302,6 +310,7 @@
         <string name="default_vm_number_string">242</string>
     </carrier_config>
     <carrier_config mcc="730" mnc="3">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <string-array name="non_roaming_operator_string_array" num="1">
             <item value="73009" />
         </string-array>
@@ -328,6 +337,9 @@
         <string name="default_vm_number_string">+56964109999</string>
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
+    </carrier_config>
+    <carrier_config mcc="716" mnc="6">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="716" mnc="17">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -442,22 +454,18 @@
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="732" mnc="101">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <string name="default_vm_number_string">*123</string>
         <boolean name="editable_voicemail_number_setting_bool" value="false" />
         <int name="maxMessageSize" value="307200" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="716" mnc="10">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <string name="default_vm_number_string">131</string>
         <boolean name="editable_voicemail_number_setting_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
-    </carrier_config>
-    <carrier_config cust_region="lm_cr" mcc="716" mnc="10">
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config cust_region="lm_cr" mcc="732" mnc="101">
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="708" mnc="1">
         <string name="default_vm_number_string">*80</string>
@@ -513,6 +521,12 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="12,13">
         <boolean name="config_support_callbarring_over_ims" value="false" />
+    </carrier_config>
+    <carrier_config cust_region="lm_cr" mcc="716" mnc="10">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config cust_region="lm_cr" mcc="732" mnc="101">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="732" mnc="103,111,165">
         <string name="default_vm_number_string">*123</string>
@@ -583,6 +597,12 @@
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
         <int name="ims_conference_size_limit_int" value="6" />
         <boolean name="config_show_mo_call_forward_toast" value="true" />
+        <int name="maxMessageSize" value="307200" />
+        <int name="smsToMmsTextThreshold" value="3" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+    </carrier_config>
+    <carrier_config mcc="230" mnc="2">
+        <boolean name="config_support_callbarring_over_ims" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="1">
         <boolean name="editable_wfc_mode_bool" value="false" />
@@ -599,6 +619,9 @@
         </map>
         <boolean name="carrier_show_spn_for_vowifi" value="false" />
         <boolean name="config_show_mo_call_forward_toast" value="true" />
+        <int name="maxMessageSize" value="307200" />
+        <boolean name="enableMultipartSMS" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="202" mnc="1">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -619,6 +642,9 @@
         <int name="ims_conference_size_limit_int" value="6" />
         <boolean name="carrier_show_spn_for_vowifi" value="false" />
         <boolean name="config_show_mo_call_forward_toast" value="true" />
+        <int name="maxMessageSize" value="307200" />
+        <boolean name="enableMultipartSMS" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="260" mnc="2">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -653,6 +679,9 @@
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
         <int name="ims_conference_size_limit_int" value="6" />
         <boolean name="config_show_mo_call_forward_toast" value="true" />
+        <int name="maxMessageSize" value="307200" />
+        <boolean name="enableMultipartSMS" value="true" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="231" mnc="1">
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -683,6 +712,9 @@
     <carrier_config mcc="250" mnc="2">
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
+    <carrier_config mcc="284" mnc="5">
+        <boolean name="config_support_callbarring_over_ims" value="false" />
+    </carrier_config>
     <carrier_config mcc="240" mnc="7">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     </carrier_config>
@@ -694,8 +726,5 @@
     </carrier_config>
     <carrier_config mcc="248" mnc="1">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="284" mnc="5">
-        <boolean name="config_support_callbarring_over_ims" value="false" />
     </carrier_config>
 </carrier_config_list>
