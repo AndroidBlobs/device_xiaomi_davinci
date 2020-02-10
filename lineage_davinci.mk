@@ -17,7 +17,7 @@ PRODUCT_MODEL := Redmi K20
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := davinci
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="davinci-user 10 QKQ1.190825.002 20.1.21 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="davinci-user 10 QKQ1.190825.002 20.2.10 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/davinci/davinci:10/QKQ1.190825.002/20.1.21:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/davinci/davinci:10/QKQ1.190825.002/20.2.10:user/release-keys
